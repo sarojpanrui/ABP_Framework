@@ -1,0 +1,30 @@
+<div class="user-container">
+  <h2>User Management</h2>
+
+  <div class="form-box">
+    <input
+      [(ngModel)]="newUser.name"
+      placeholder="Enter name"
+      type="text"
+      
+    />
+
+    <input
+      [(ngModel)]="newUser.age"
+      placeholder="Enter age"
+      type="number"
+      
+    />
+
+    <button (click)="createUser()">Add User</button>
+  </div>
+
+  <div class="user-list">
+    <div class="user-card" *ngFor="let user of users">
+      <p><strong>Name:</strong> {{ user.name }}</p>
+      <p><strong>Age:</strong> {{ user.age }}</p>
+
+      <button (click)="deleteUser(user.id!)">Delete</button>
+    </div>
+  </div>
+</div>

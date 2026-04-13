@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\angular\\.angular",
+    "\\angular\\src",
+    "\\aspnet-core",
+    "\\aspnet-core\\TodoApp",
+    "\\aspnet-core\\TodoApp\\Services\\Dtos"
+  ],
+  "SelectedNode": "\\aspnet-core\\TodoApp\\TodoApp.csproj",
+  "PreviewInSolutionExplorer": false
+}

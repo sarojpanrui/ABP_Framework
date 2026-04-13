@@ -1,0 +1,35 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TodoAppLayered.Application.Contracts/TodoAppLayered.Application.Contracts.csproj" />
+    <Project Path="src/TodoAppLayered.Application/TodoAppLayered.Application.csproj" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <Project Path="src/TodoAppLayered.DbMigrator/TodoAppLayered.DbMigrator.csproj" />
+    <Project Path="src/TodoAppLayered.Domain.Shared/TodoAppLayered.Domain.Shared.csproj" />
+    <Project Path="src/TodoAppLayered.Domain/TodoAppLayered.Domain.csproj" />
+    <Project Path="src/TodoAppLayered.EntityFrameworkCore/TodoAppLayered.EntityFrameworkCore.csproj" />
+    <Project Path="src/TodoAppLayered.HttpApi.Client/TodoAppLayered.HttpApi.Client.csproj" />
+    
+    <Project Path="src/TodoAppLayered.HttpApi.Host/TodoAppLayered.HttpApi.Host.csproj" />
+    <Project Path="src/TodoAppLayered.HttpApi/TodoAppLayered.HttpApi.csproj" />
+    
+    
+    
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/TodoAppLayered.Application.Tests/TodoAppLayered.Application.Tests.csproj" />
+    <Project Path="test/TodoAppLayered.Domain.Tests/TodoAppLayered.Domain.Tests.csproj" />
+    <Project Path="test/TodoAppLayered.EntityFrameworkCore.Tests/TodoAppLayered.EntityFrameworkCore.Tests.csproj" />
+    <Project Path="test/TodoAppLayered.HttpApi.Client.ConsoleTestApp/TodoAppLayered.HttpApi.Client.ConsoleTestApp.csproj" />
+    
+    <Project Path="test/TodoAppLayered.TestBase/TodoAppLayered.TestBase.csproj" />
+    
+  </Folder>
+</Solution>

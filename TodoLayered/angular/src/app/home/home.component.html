@@ -1,0 +1,30 @@
+<div class="container min-vh-100 d-flex align-items-center justify-content-center bg-light">
+  <div class="card shadow-lg border-0 rounded-4 p-4" style="width: 500px">
+    <h1 class="text-center fw-bold mb-4">Todo List</h1>
+
+    <!-- Input + Add Button -->
+    <div class="d-flex gap-2 mb-4">
+      <input
+        type="text"
+        class="form-control border border-dark"
+        placeholder="Enter your task"
+        [(ngModel)]="newTodoText"
+        (keyup.enter)="create()"
+      />
+      <button class="btn btn-primary" (click)="create()">Add</button>
+    </div>
+
+    <!-- Todo Items -->
+    <div class="d-flex flex-column gap-3">
+      <div class="border rounded p-3 d-flex justify-content-between align-items-center">
+        @for (item of todoItems; track item.id) {
+          <div class="border rounded p-3 d-flex justify-content-between align-items-center">
+            <span>{{ item.text }}</span>
+
+            <button class="btn btn-outline-danger btn-sm" (click)="delete(item.id!)">Delete</button>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>
